@@ -15,8 +15,8 @@ function setup() {
    ground=new Ground(width/2,height-10,width,20);
    hammer=new Hammer(100,100);
    stone=new Stone(200,height/2,50,50,PI/2);
-   r=new Rubber(700,0,15);
-   iron=new Iron(800,500,100,30); 
+   r=new Rubber(width-50,0,15);
+   iron=new Iron(width-100,500,100,30); 
    s1=new Sand(500,300,5);
    s2=new Sand(495,300,5);
    s3=new Sand(480,300,5);
